@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtIdFood"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="IdFood" />
+
+    <TextView
+        android:id="@+id/txtNameFood"
+        android:layout_width="100dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="NameFood" />
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="amount" />
+    <TextView
+        android:id="@+id/txtTotalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="TotalFodd" />
+</LinearLayout>
